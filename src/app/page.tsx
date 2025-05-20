@@ -44,7 +44,7 @@ export default function Home() {
         </header>
   
         <section className="py-24 bg-gradient-to-r from-blue-100 to-blue-200 text-center px-4">
-          <h2 className="text-4xl font-extrabold mb-4 text-gray-800 tracking-tight">技術を世界へ、未来へつなぐ</h2>
+          <h2 className="text-4xl font-extrabold mb-4 text-gray-800 tracking-tight">技術を世界へ、未来をつなぐ</h2>
           <p className="text-lg text-gray-700 max-w-screen-md mx-auto leading-relaxed">
             NextUnionは、技術提供により未来を支える任意団体です。
           </p>
