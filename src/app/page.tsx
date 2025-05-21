@@ -1,4 +1,21 @@
 import Head from 'next/head';
+export const metadata = {
+  title: 'NextUnion - 技術で未来をつなぐ団体',
+  description: 'NextUnionは技術提供を通じて未来を支える任意団体です。',
+  openGraph: {
+    title: 'NextUnion - 技術で未来をつなぐ団体',
+    description: 'NextUnionは技術提供を通じて未来を支える任意団体です。',
+    url: 'https://nextunion.jp/',
+    images: ['https://nextunion.jp/og-image.jpg'],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'NextUnion - 技術で未来をつなぐ団体',
+    description: 'NextUnionは技術提供を通じて未来を支える任意団体です。',
+    images: ['https://nextunion.jp/og-image.jpg'],
+  },
+};
 export default function Home() {
     return (
       <>
