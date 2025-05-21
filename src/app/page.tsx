@@ -1,32 +1,30 @@
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'NextUnion - 技術で未来をつなぐ団体',
-  description: 'NextUnionは技術提供を通じて未来を支える任意団体です。',
+export const metadata = {
+  title: 'NextUnion - 技術を世界へ、未来をつなぐ',
+  description: 'NextUnionは、技術提供により未来を支える任意団体です。',
+  keywords: ['NextUnion', '技術支援', '地域貢献', '任意団体'],
   openGraph: {
-    title: 'NextUnion - 技術で未来をつなぐ団体',
-    description: 'NextUnionは技術提供を通じて未来を支える任意団体です。',
+    title: 'NextUnion - 技術を世界へ、未来をつなぐ',
+    description: 'NextUnionは、技術提供により未来を支える任意団体です。',
     url: 'https://nextunion.jp',
     siteName: 'NextUnion',
     images: [
       {
-        url: 'https://nextunion.jp/og-image.jpg',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'NextUnionロゴ',
+        alt: 'NextUnion ロゴ画像',
       },
     ],
+    locale: 'ja_JP',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NextUnion - 技術で未来をつなぐ団体',
-    description: 'NextUnionは技術提供を通じて未来を支える任意団体です。',
-    images: ['https://nextunion.jp/og-image.jpg'],
+    title: 'NextUnion - 技術を世界へ、未来をつなぐ',
+    description: 'NextUnionは、技術提供により未来を支える任意団体です。',
+    images: ['/og-image.jpg'],
   },
-  icons: {
-    icon: '/favicon.ico',
-  },
+  metadataBase: new URL('https://nextunion.jp'),
 };
 
 export default function Home() {
