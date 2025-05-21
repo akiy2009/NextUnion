@@ -12,6 +12,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  metadataBase: new URL('https://nextunion.jp'),
+  title: {
+    default: 'NextUnion',
+    template: '%s | NextUnion',
+  },
+  description: '技術提供により未来を支える任意団体、NextUnionの公式サイトです。',
+};
 
 export default function RootLayout({
   children,
