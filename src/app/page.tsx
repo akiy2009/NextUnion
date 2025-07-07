@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'NextUnion - 技術を世界へ、未来をつなぐ',
   description: 'NextUnionは、技術提供により未来を支える任意団体です。',
-  keywords: ['NextUnion', '技術支援', '地域貢献', '任意団体'],
+  keywords: ['NextUnion', '技術支援', '地域貢献', '任意団体', 'nextunion'],
   openGraph: {
     title: 'NextUnion - 技術を世界へ、未来をつなぐ',
     description: 'NextUnionは、技術提供により未来を支える任意団体です。',
